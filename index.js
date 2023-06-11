@@ -30,7 +30,7 @@ app.post('/createfile', (req, res) => {
 });
 
 //GET REQUEST TO RETRIEVE FILES
-app.get('/textFiles', (req, res) => {
+app.get('/', (req, res) => {
     const folderPath = './dates';
 
     fs.readdir(folderPath, (err, files) => {
