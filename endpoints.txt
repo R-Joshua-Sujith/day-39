@@ -1,5 +1,6 @@
 To create File
-http://localhost:3000/createfile
+POST REQUEST https://day-39-joshua.onrender.com/createfile
+No need to pass anything in the body 
 
 To retrieve file 
-http://localhost:3000/textFiles
+GET REQUEST  https://day-39-joshua.onrender.com/
